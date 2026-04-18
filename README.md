@@ -1,7 +1,9 @@
 # TG-BOT-
 --Этот бот способен по картинкам понять на фото человек с грустной или радостной эмоцией бот обучен распозновать эмоции
 
---1--
+
+
+
 import telebot
 from telebot import types
 from keras.models import load_model
@@ -9,7 +11,7 @@ from PIL import Image, ImageOps
 import numpy as np
 import random , os
 from l import get_class
-TOKEN = "8333984025:AAFe0QbFReUfJUuvX2cDY7g7vcgqK1Oc7Gs"
+TOKEN = 
 bot = telebot.TeleBot(TOKEN)
 
 
@@ -35,7 +37,8 @@ def get_image(message):
 bot.polling()
 
 
---2--
+
+
 import telebot
 from telebot import types
 from keras.models import load_model
